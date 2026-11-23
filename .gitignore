@@ -1,0 +1,22 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 程序生成物（每次运行会重新生成，不纳入版本管理）
+result.csv
+report.md
+docstats.log
+docstats.log.*
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
